@@ -1,0 +1,6 @@
+{
+  "fraudulent": "generic_decline",
+  "lost_card": "generic_decline",
+  "merchant_blacklist": "generic_decline",
+  "stolen_card": "generic_decline"
+}
