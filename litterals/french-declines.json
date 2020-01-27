@@ -1,0 +1,186 @@
+{
+  "authentication_required": [
+    "La carte a été refusée car la transaction requiert d'être authentifié.",
+    "Le client devrait réessayer et authentifier sa carte lorsque cela est demandé durant la transaction."
+  ],
+  "approve_with_id": [
+    "Le paiement ne peut pas être autorisé.",
+    "Le paiement doit être essayé à nouveau. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
+  ],
+  "call_issuer": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "card_not_supported": [
+    "La carte ne supporte pas ce type d'achat.",
+    "Le client doit contacter l'émetteur de sa carte pour être sûr que sa carte peut être utilisée pour faire ce type d'achat."
+  ],
+  "card_velocity_exceeded": [
+    "Le client a dépassé le solde ou la limite de crédit disponible de sa carte.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "currency_not_supported": [
+    "La carte ne supporte pas cette devise.",
+    "Le client doit vérifier auprès de l'émetteur de sa carte qu'elle puisse être utilisée pour ce type de devise."
+  ],
+  "do_not_honor": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "do_not_try_again": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "duplicate_transaction": [
+    "Une transaction avec un montant identique et les mêmes informations de carte a récemment été pris en compte.",
+    "Vérifiez qu'un paiement récent n'existe pas déjà."
+  ],
+  "expired_card": [
+    "La carte a expiré.",
+    "Le client devrait utiliser une autre carte."
+  ],
+  "fraudulent": [
+    "Le paiement a été refusé car Stripe le suspecte frauduleux.",
+    "Ne renvoyez pas d'informations détaillées à vos clients. Présentez l'erreur comme vous présenteriez generic_decline."
+  ],
+  "generic_decline": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "incorrect_number": [
+    "Le numéro de carte est incorrect.",
+    "Le client devrait réessayer en utilisant le bon numéro de carte."
+  ],
+  "incorrect_cvc": [
+    "Le code de sécurité (numéro à 3 chiffres au verso de la carte) est incorrect.",
+    "Le client devrait réessayer en entrant le bon code de sécurité."
+  ],
+  "incorrect_pin": [
+    "Le code PIN entré est incorrect. Ce code d'erreur ne s'applique qu'aux paiements faits avec un lecteur de carte.",
+    "Le client devrait réessayer en utilisant le bon code PIN."
+  ],
+  "incorrect_zip": [
+    "Le code postal est incorrect.",
+    "Le client devrait réessayer en entrant le bon code postal."
+  ],
+  "insufficient_funds": [
+    "La carte a des fonds insuffisants pour complêter l'achat.",
+    "Le client devrait essayer une autre méthode de paiement."
+  ],
+  "invalid_account": [
+    "La carte, ou le compte auquel est connecté la carte, est invalide.",
+    "Le client doit contacter l'émetteur de sa carte pour vérifier qu'elle marche correctement."
+  ],
+  "invalid_amount": [
+    "Le montant du paiement est invalide, ou dépasse le montant qui est permis.",
+    "Si le montant apparaît correct, le client doit vérifier avec l'émetteur de sa carte qu'il puisse faire des achats de ce montant."
+  ],
+  "invalid_cvc": [
+    "Le code de sécurité (numéro à 3 chiffres au verso de la carte) est incorrect.",
+    "Le client devrait réessayer en entrant le bon code de sécurité."
+  ],
+  "invalid_expiry_year": [
+    "L'année d'expiration est invalide.",
+    "Le client devrait réessayer en fournissant la date d'expiration correcte."
+  ],
+  "invalid_number": [
+    "Le numéro de carte est incorrect.",
+    "Le client devrait réessayer en utilisant le bon numéro de carte."
+  ],
+  "invalid_pin": [
+    "Le code PIN entré est incorrect. Ce code d'erreur ne s'applique qu'aux paiements faits avec un lecteur de carte.",
+    "Le client devrait réessayer en entrant le bon code PIN."
+  ],
+  "issuer_not_available": [
+    "L'émetteur de la carte n'a pas pu être contacté, le paiement n'a donc pas pu être autorisé.",
+    "Le paiement devrait être essayé à nouveau Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
+  ],
+  "lost_card": [
+    "Le paiement a été refusé car la carte a été déclarée perdue.",
+    "Ne renvoyez pas d'informations détaillées à vos clients. Présentez l'erreur comme vous présenteriez generic_decline."
+  ],
+  "merchant_blacklist": [
+    "Le paiement a été refusé car il correspond à une valeur sur la liste des bloquages utilisateur Stripe.",
+    "Ne renvoyez pas d'informations détaillées à vos clients. Présentez l'erreur comme vous présenteriez generic_decline."
+  ],
+  "new_account_information_available": [
+    "La carte, ou le compte auquel la carte est connectée, est invalide.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "no_action_taken": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "not_permitted": [
+    "Le paiement n'est pas permis.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "offline_pin_required": [
+    "La carte a été refusée car elle requiert un code PIN.",
+    "Le client devrait réessayer en insérant sa carte et en entrant un code PIN."
+  ],
+  "online_or_offline_pin_required": [
+    "La carte a été refusée car elle requiert un code PIN.",
+    "Si le lecteur de carte support Online PIN, un code PIN devrait être demandé au client sans qu'une nouvelle transaction soit crée. Si le lecteur de carte ne supporte pas Online PIN, le client devrait réessayer en insérant sa carte et en entrant un code PIN."
+  ],
+  "pickup_card": [
+    "La carte ne peut pas être utilisée pour faire ce paiement (il est possible qu'elle ait été déclarée perdue ou volée).",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "pin_try_exceeded": [
+    "Le nombre maximum d'essais de code PIN permis a été dépassé.",
+    "Le client doit utiliser une autre carte ou un autre moyen de paiement."
+  ],
+  "processing_error": [
+    "Une erreur est survenue pendant le traitement de la carte.",
+    "Le paiement devrait être essayé à nouveau. Si il ne peut toujours pas être traité, réessayez plus tard."
+  ],
+  "reenter_transaction": [
+    "Le paiement n'a pas pu être traité par l'émetteur pour une raison inconnue.",
+    "Le paiement devrait être essayé à nouveau. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
+  ],
+  "restricted_card": [
+    "La carte ne peut pas être utilisée pour faire ce paiement (il est possible qu'elle ait été déclarée perdue ou volée).",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "revocation_of_all_authorizations": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "revocation_of_authorization": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "security_violation": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "service_not_allowed": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "stolen_card": [
+    "Le paiement a été refusé car la carte a été déclarée volée.",
+    "Ne renvoyez pas d'informations détaillées à vos clients. Présentez l'erreur comme vous présenteriez generic_decline."
+  ],
+  "stop_payment_order": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "testmode_decline": [
+    "Un numéro de carte de test Stripe a été utilisé.",
+    "Une vraie carte doit être utilisée pour effectuer un paiement."
+  ],
+  "transaction_not_allowed": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Le client doit contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "try_again_later": [
+    "La carte a été refusée pour une raison inconnue.",
+    "Demandez au client d'essayer de payer à nouveau. Si les tentatives suivantes sont également refusées, le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+  ],
+  "withdrawal_count_limit_exceeded": [
+    "Le client has exceeded the balance or credit limit available on their card.",
+    "Le client devrait essayer une autre méthode de paiement."
+  ],
+}
