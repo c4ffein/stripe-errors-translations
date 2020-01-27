@@ -182,5 +182,5 @@
   "withdrawal_count_limit_exceeded": [
     "The customer has exceeded the balance or credit limit available on their card.",
     "The customer should use an alternative payment method."
-  ],
+  ]
 }
