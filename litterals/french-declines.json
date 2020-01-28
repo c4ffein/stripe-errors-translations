@@ -64,7 +64,7 @@
     "Le client devrait réessayer en entrant le bon code postal."
   ],
   "insufficient_funds": [
-    "La carte a des fonds insuffisants pour complêter l'achat.",
+    "La carte a des fonds insuffisants pour compléter l'achat.",
     "Le client devrait essayer une autre méthode de paiement."
   ],
   "invalid_account": [
