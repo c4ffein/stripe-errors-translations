@@ -12,12 +12,12 @@ def generate_file(file, prefix = ""):
             value = value.replace("'", "\\'")
             print(f"  {prefix.upper()}{key.upper()}: '{value}',")
 
-def generate():
+def generate(version = "enduser"):
     generate_file(
-        Path(__file__).parent / "litterals" / "french.json", prefix = "STRIPE_"
+        Path(__file__).parent / version / "french.json", prefix = "STRIPE_"
     )
     generate_file(
-        Path(__file__).parent / "litterals" / "french-declines.json", prefix = "STRIPE_DECLINE_"
+        Path(__file__).parent / version / "french-declines.json", prefix = "STRIPE_DECLINE_"
     )
 
 if __name__ == "__main__":
