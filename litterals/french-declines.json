@@ -177,7 +177,7 @@
   ],
   "try_again_later": [
     "La carte a été refusée pour une raison inconnue.",
-    "Demandez au client d'essayer de payer à nouveau. Si les tentatives suivantes sont également refusées, le client devrait contacter l'émetteur de sa carte pour plus d'informations."
+    "Demandez au client d'essayer à nouveau d'effectuer le paiement. Si les tentatives suivantes sont également refusées, le client devrait contacter l'émetteur de sa carte pour plus d'informations."
   ],
   "withdrawal_count_limit_exceeded": [
     "Le client a dépassé les fonds ou la limite de crédit disponible sur sa carte.",
