@@ -93,7 +93,7 @@
   ],
   "issuer_not_available": [
     "L'émetteur de la carte n'a pas pu être contacté, le paiement n'a donc pas pu être autorisé.",
-    "Le paiement devrait être essayé à nouveau. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
+    "Demandez au client d'essayer à nouveau d'effectuer le paiement. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
   ],
   "lost_card": [
     "Le paiement a été refusé car la carte a été déclarée perdue.",
@@ -133,11 +133,11 @@
   ],
   "processing_error": [
     "Une erreur est survenue pendant le traitement de la carte.",
-    "Le paiement devrait être essayé à nouveau. Si il ne peut toujours pas être traité, réessayez plus tard."
+    "Demandez au client d'essayer à nouveau d'effectuer le paiement. Si il ne peut toujours pas être traité, réessayez plus tard."
   ],
   "reenter_transaction": [
     "Le paiement n'a pas pu être traité par l'émetteur pour une raison inconnue.",
-    "Le paiement devrait être essayé à nouveau. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
+    "Demandez au client d'essayer à nouveau d'effectuer le paiement. Si il ne peut toujours pas être traité, le client doit contacter l'émetteur de sa carte."
   ],
   "restricted_card": [
     "La carte ne peut pas être utilisée pour faire ce paiement (il est possible qu'elle ait été déclarée perdue ou volée).",
