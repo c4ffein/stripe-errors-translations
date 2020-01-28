@@ -73,7 +73,7 @@
   ],
   "invalid_amount": [
     "Le montant du paiement est invalide, ou dépasse le montant qui est permis.",
-    "Si le montant apparaît correct, le client doit vérifier avec l'émetteur de sa carte qu'il puisse faire des achats de ce montant."
+    "Si le montant apparaît correct, le client doit vérifier avec l'émetteur de sa carte qu'elle puisse faire des achats de ce montant."
   ],
   "invalid_cvc": [
     "Le code de sécurité (numéro à 3 chiffres au verso de la carte) est incorrect.",
