@@ -180,7 +180,7 @@
     "Demandez au client d'essayer de payer à nouveau. Si les tentatives suivantes sont également refusées, le client devrait contacter l'émetteur de sa carte pour plus d'informations."
   ],
   "withdrawal_count_limit_exceeded": [
-    "Le client has exceeded the balance or credit limit available on their card.",
+    "Le client a dépassé les fonds ou la limite de crédit disponible sur sa carte.",
     "Le client devrait essayer une autre méthode de paiement."
   ]
 }
