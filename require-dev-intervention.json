@@ -1,0 +1,11 @@
+[
+  "account_invalid",
+  "alipay_upgrade_required",
+  "api_key_expired",
+  "authentication_required",
+  "bitcoin_upgrade_required",
+  "country_unsupported",
+  "idempotency_key_in_use",
+  "secret_key_required",
+  "tls_version_unsupported"
+]
