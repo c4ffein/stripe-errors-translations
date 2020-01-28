@@ -74,7 +74,7 @@
   "postal_code_invalid": "Le code postal fourni est incorrect.",
   "processing_error": "Une erreur est survenue pendant le traitement de la carte. Vérifiez que les détails de la carte sont corrects ou utilisez une autre carte.",
   "product_inactive": "Le produit auquel appartient ce SKU n'est plus disponible à l'achat.",
-  "rate_limit": "Trop de requêtes ont atteint cette API trop rapidement. Nous recommandons un ralentissement exponentiel de vos requêtes.Too many requests hit the API too quickly.",
+  "rate_limit": "Trop de requêtes ont atteint cette API trop rapidement. Nous recommandons un ralentissement exponentiel de vos requêtes.",
   "resource_already_exists": "Une resouece avec un ID spécifié par l'utilisateur existe déjà (e.g., un plan ou un coupon).Utilisez une valeur différente et unique comme ID et réessayez.",
   "resource_missing": "L'ID fourni n'est pas valide. Soit la resource n'existe pas, soit un ID pour une resource différente a été fourni.",
   "routing_number_invalid": "Le numéro de banque fourni est invalide.",
