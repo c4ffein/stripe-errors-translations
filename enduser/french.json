@@ -16,7 +16,7 @@
   "bank_account_verification_failed": "Le compte bancaire ne peut pas être vérifé, soit car les montants de microdépositions ne correspondent pas aux montants actuels, soit car la vérification a échoué de trop nombreuses fois.",
   "bitcoin_upgrade_required": "Cette méthode pour créer des paiements Bitcoin n'est plus supportée. Merci d'utiliser une autre méthode.",
   "card_decline_rate_limit_exceeded": "Cette carte a été refusée de trop nombreuses fois. Vous pouvez essayer d'utiliser à nouveau cette carte dans 24 heures. Nous vous suggérons de contacter votre client pour être sur qu'ils ont entré toutes leurs informations correctement et qu'il n'y a pas de problème avec leur carte.",
-  "card_declined": "La carte a été refusée. Quand une carte est refusée, l'erreur retournée inclus l'attribut decline_code avec la raison pour laquelle la carte a été déclinée. Refferez-vous à notre documentation des codes de refus pour plus d'informations.",
+  "card_declined": "La carte a été refusée.",
   "charge_already_captured": "La charge Stripe que vous tentez de capturer a déjà été capturée. Mettez à jour votre requête avec un identifiant de charge non capturé.",
   "charge_already_refunded": "La charge Stripe que vous tentez de rembourser l'a déjà été. Mettez à jour votre requête avec un identifiant de charge non remboursé.",
   "charge_disputed": "La charge Stripe que vous tentez de rembourser a déjà été rétrofacturée. Referrez-vous à la documentation sur les contestations pour savoir comment traiter ce cas.",
