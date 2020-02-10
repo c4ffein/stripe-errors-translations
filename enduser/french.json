@@ -15,7 +15,7 @@
   "bank_account_unverified": "Votre plateforme Connect tente de partager un compte bancaire non vérifié avec un compte connecté.",
   "bank_account_verification_failed": "Le compte bancaire ne peut pas être vérifé, soit car les montants de microdépositions ne correspondent pas aux montants actuels, soit car la vérification a échoué de trop nombreuses fois.",
   "bitcoin_upgrade_required": "Cette méthode pour créer des paiements Bitcoin n'est plus supportée. Merci d'utiliser une autre méthode.",
-  "card_decline_rate_limit_exceeded": "Cette carte a été refusée de trop nombreuses fois. Vous pouvez essayer d'utiliser à nouveau cette carte dans 24 heures. Nous vous suggérons de contacter votre client pour être sur qu'ils ont entré toutes leurs informations correctement et qu'il n'y a pas de problème avec leur carte.",
+  "card_decline_rate_limit_exceeded": "Cette carte a été refusée de trop nombreuses fois. Vous pouvez essayer d'utiliser à nouveau cette carte dans 24 heures. Nous vous suggérons de vérifier que toutes les informations ont été entrées correctement et qu'il n'y a pas de problème avec votre carte.",
   "card_declined": "La carte a été refusée.",
   "charge_already_captured": "La charge Stripe que vous tentez de capturer a déjà été capturée. Mettez à jour votre requête avec un identifiant de charge non capturé.",
   "charge_already_refunded": "La charge Stripe que vous tentez de rembourser l'a déjà été. Mettez à jour votre requête avec un identifiant de charge non remboursé.",
